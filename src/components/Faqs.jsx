@@ -56,11 +56,11 @@ const Faqs = () => {
 
   return (
     <div className="relative h-fit w-screen items-center justify-center text-black overflow-hidden bg-[#f1f1f1] backdrop-blur-sm">
-      <div className="container mx-auto p-4 w-4/5">
-        <h1 className="text-2xl text-black font-bold text-center mb-6 mt-8">
-          Frequently Asked Questions (FAQ)
+      <div className="container mx-auto p-2 w-4/5 mb-8">
+        <h1 className="text-2xl text-black font-bold text-center mb-8 mt-8">
+          Frequently Asked Questions (FAQs)
         </h1>
-        <div className="space-y-1">
+        <div className="grid grid-cols-2 gap-2 space-y-1">
           {faqData.map((faq, index) => (
             <div
               key={index}
@@ -70,7 +70,7 @@ const Faqs = () => {
                 className="w-full p-4 flex items-center justify-between text-left hover:bg-gray-50 transition-colors focus:outline-none border-none"
                 onClick={() => toggleExpand(index)}
               >
-                <h2 className="text-base font-neutral text-black border-none">
+                <h2 className="text-base font-semibold text-black border-none">
                   {faq.question}
                 </h2>
                 {expandedIndex === index ? (

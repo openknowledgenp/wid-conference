@@ -7,20 +7,25 @@ const VantaGlobe = () => {
   const vantaRef = useRef(null)
   const vantaEffect = useRef(null)
   const [mounted, setMounted] = useState(false)
+  const [scriptsLoaded, setScriptsLoaded] = useState({
+    three: false,
+    vanta: false,
+  })
 
   useEffect(() => {
     setMounted(true)
+
     return () => {
       if (vantaEffect.current) {
         vantaEffect.current.destroy()
+        vantaEffect.current = null
       }
     }
   }, [])
 
-  const initVanta = () => {
-    if (!vantaRef.current || !window.VANTA) return
-    
-    if (!vantaEffect.current) {
+  useEffect(() => {
+    // Only initialize when both scripts are loaded and component is mounted
+    if (scriptsLoaded.three && scriptsLoaded.vanta && mounted && vantaRef.current && !vantaEffect.current) {
       vantaEffect.current = window.VANTA.GLOBE({
         el: vantaRef.current,
         mouseControls: true,
@@ -31,14 +36,22 @@ const VantaGlobe = () => {
         scale: 1.0,
         scaleMobile: 1.0,
         color: 0xfcc10f,
-        size:1.5,
+        size: 1.5,
         backgroundColor: 0x36a9e1,
       })
     }
+  }, [scriptsLoaded, mounted])
+
+  const handleThreeLoad = () => {
+    setScriptsLoaded(prev => ({ ...prev, three: true }))
+  }
+
+  const handleVantaLoad = () => {
+    setScriptsLoaded(prev => ({ ...prev, vanta: true }))
   }
 
   if (!mounted) {
-    return <div className="w-full h-screen bg-[#36a9e1]" /> // Placeholder during SSR
+    return <div className="w-full h-screen bg-[#36a9e1]" />
   }
 
   return (
@@ -46,11 +59,12 @@ const VantaGlobe = () => {
       <Script 
         src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"
         strategy="afterInteractive"
+        onLoad={handleThreeLoad}
       />
       <Script
         src="https://unpkg.com/vanta@latest/dist/vanta.globe.min.js"
         strategy="afterInteractive"
-        onLoad={initVanta}
+        onLoad={handleVantaLoad}
       />
       <div
         ref={vantaRef}

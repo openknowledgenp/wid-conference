@@ -1,0 +1,20 @@
+{
+    "members":[
+        {"url": "","image": "images/logos/committee/wlit.png", "name":""},
+        {"url": "","image": "/images/logos/committee/drn.png", "name":""},
+        {"url": "","image": "/images/logos/committee/naxa.png", "name":""},
+        {"url": "","image": "/images/logos/committee/ran.png", "name":""},
+        {"url": "","image": "/images/logos/committee/smartcheli.png", "name":""},
+        {"url": "","image": "/images/logos/committee/udhesya.png", "name":""},
+        {"url": "","image": "/images/logos/committee/wlit.png", "name":""},
+        {"url": "","image": "/images/logos/committee/wiit.png", "name":""},
+        {"url": "","image": "/images/logos/committee/wiit.png", "name":""},
+        {"url": "","image": "/images/logos/committee/okn.png", "name":""},
+        {"url": "","image": "/images/logos/committee/ankamala.png", "name":""}
+    ],
+    "funders": [
+        {"url": "","image": "/images/logos/committee/wiit.png", "name":""},
+        {"url": "","image": "/images/logos/committee/wiit.png", "name":""},
+        {"url": "","image": "/images/logos/committee/wiit.png", "name":""}
+    ]
+}

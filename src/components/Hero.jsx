@@ -36,10 +36,10 @@ const Hero = () => {
   }
 
   return (
-    <section className="relative h-screen w-screen text-black overflow-hidden">
-      <div className="absolute top-0 left-0 w-full h-full z-0">
+    <section className="relative h-screen bg-[#36a9e1] w-screen text-black overflow-hidden">
+      {/* <div className="absolute top-0 left-0 w-full h-full z-0">
         <VantaGlobe />
-      </div>
+      </div> */}
 
       <div className="container mx-auto relative z-10 flex flex-col items-center justify-center px-4 py-24 2xl:py-44 text-center">
         <div className="animate-fadeIn">
