@@ -4,14 +4,14 @@ import Image from 'next/image';
 
 const LogoSection = () => {
   const organizedByLogos = [
-    '/images/logos/committee/wlit.png',
-    '/images/logos/committee/drn.png',
-    '/images/logos/committee/naxa.png',
-    '/images/logos/committee/ran.png',
-    '/images/logos/committee/smartcheli.png',
-    '/images/logos/committee/udhesya.png',
-    '/images/logos/committee/wlit.png',
-    '/images/logos/committee/wiit.png',
+    `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/logos/committee/wlit.png`,
+    `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/logos/committee/drn.png`,
+    `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/logos/committee/naxa.png`,
+    `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/logos/committee/ran.png`,
+    `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/logos/committee/smartcheli.png`,
+    `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/logos/committee/udhesya.png`,
+    `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/logos/committee/wlit.png`,
+    `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/logos/committee/wiit.png`,
   ];
 
   const LogoGrid = ({ logos }) => (
@@ -37,13 +37,13 @@ const LogoSection = () => {
         <div className="w-1/3">
           <h2 className="text-lg font-bold mb-4 text-gray-800">Supported by</h2>
           <div className="rounded-md shadow-sm bg-white shadow-lg border border-[#40ADE3] hover:shadow-lg transition-all cursor-pointer">
-            <Image src="/images/logos/supports/stacked.png" alt="Funding partners" width={400} height={200} />
+          <Image src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/logos/supports/stacked.png`} alt="Funding partners" width={400} height={200} />
           </div>
         </div>
         <div className="w-1/3">
           <h2 className="text-lg font-bold mb-4 text-gray-800">Managed by</h2>
           <div className="rounded-md shadow-sm bg-white shadow-lg border border-[#40ADE3] hover:shadow-lg transition-all cursor-pointer p-4 w-fit">
-            <Image src="/images/logos/committee/okn.png" alt="Open Knowledge Nepal" width={48} height={48} className="h-12" />
+            <Image src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/logos/committee/okn.png`} alt="Open Knowledge Nepal" width={48} height={48} className="h-12" />
           </div>
         </div>
       </section>

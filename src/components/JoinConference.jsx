@@ -10,22 +10,22 @@ export const JoinConference = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
           {[
             {
-              icon: "/images/icons/network.png",
+              icon: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/icons/network.png`,
               title: "Build Your Network",
               description: "Connect with policymakers, practitioners, and thought leaders."
             },
             {
-              icon: "/images/icons/skills.png",
+              icon: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/icons/skills.png`,
               title: "Enhance Your Skills",
               description: "Learn practical tools and methods for data-driven solutions."
             },
             {
-              icon: "/images/icons/inspire.png",
+              icon: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/icons/inspire.png`,
               title: "Be Inspired",
               description: "Discover success stories and insights from leading women in data."
             },
             {
-              icon: "/images/icons/future.png",
+              icon: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/icons/future.png`,
               title: "Shape the Future",
               description: "Contribute to a movement advancing data-driven gender equality."
             }

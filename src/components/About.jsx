@@ -2,14 +2,13 @@
 
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
+import configData from '../data/config.json';
 
 export const About = () => {
   const [config, setConfig] = useState(null);
 
   useEffect(() => {
-    fetch('/data/config.json')
-      .then(res => res.json())
-      .then(data => setConfig(data.conference.about));
+    setConfig(configData.conference.about);
   }, []);
 
   if (!config) return null;
@@ -35,7 +34,7 @@ export const About = () => {
           <div className="">
             <div className="p-4 w-fit self-end">
               <Image 
-                src="/images/icons/data-tools.png" 
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/logo.png/images/icons/data-tools.png`} 
                 alt="collaboration" 
                 height={60} 
                 width={400}

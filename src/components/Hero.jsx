@@ -1,12 +1,11 @@
-// src/components/Hero.tsx
 'use client'
 
 import { useEffect, useState } from 'react'
 import CountdownTimer from './shared/CountdownTimer'
 import VantaGlobe from './VantaGlobe'
 import Image from 'next/image'
+import configData from '../data/config.json';
 
-// Helper function for consistent date formatting
 const formatDate = (dateString) => {
   const date = new Date(dateString)
   const months = [
@@ -22,9 +21,7 @@ const Hero = () => {
 
   useEffect(() => {
     setMounted(true)
-    fetch('/data/config.json')
-      .then(res => res.json())
-      .then(data => setConfig(data.conference))
+      setConfig(configData.conference)
   }, [])
 
   // Add a loading state for SSR
@@ -47,7 +44,7 @@ const Hero = () => {
       <div className="container mx-auto relative z-10 flex flex-col items-center justify-center px-4 py-24 2xl:py-44 text-center">
         <div className="animate-fadeIn">
           <Image
-            src="/wid.png"
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/wid.png`}
             alt="wid logo"
             className="mx-auto"
             height={140}

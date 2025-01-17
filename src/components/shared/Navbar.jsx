@@ -34,7 +34,7 @@ const Navbar = () => {
       <div className="container flex flex-wrap items-center justify-between mx-auto px-4">
         <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <Image
-            src="/images/icons/wid_name.png"
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/icons/wid_name.png`}
             className={`transition-all duration-300 ${
               scrolled ? 'h-12 w-[3.69rem] md:h-16 md:w-[4.31rem]' : 'h-14 w-[4.31rem] md:h-16 w-[4.92rem]'
             }`}
