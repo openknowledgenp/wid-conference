@@ -70,7 +70,7 @@ const Faqs = () => {
                 className="w-full p-4 flex items-center justify-between text-left hover:bg-gray-50 transition-colors focus:outline-none border-none"
                 onClick={() => toggleExpand(index)}
               >
-                <h2 className="text-lg font-semibold text-[#40ADE3] border-none">
+                <h2 className="text-base font-neutral text-black border-none">
                   {faq.question}
                 </h2>
                 {expandedIndex === index ? (

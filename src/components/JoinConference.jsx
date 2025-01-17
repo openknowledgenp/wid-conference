@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export const JoinConference = () => {
   return (
-    <section id="about" className="py-20 px-4 bg-[#f6f6f6] backdrop-blur-sm">
+    <section id="about" className="py-20 px-4 bg-[#fff] backdrop-blur-sm">
       <div className="container mx-auto">
         <h2 className="text-center text-black font-bold md:text-2xl mb-12">Why Join WiD Conference?</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-2">

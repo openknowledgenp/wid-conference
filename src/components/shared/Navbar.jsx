@@ -4,10 +4,12 @@ import { useState, useEffect } from 'react'
 import { Menu, X } from 'lucide-react'
 import Link from 'next/link'
 import Image from 'next/image'
+import { useRouter } from 'next/navigation';
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const router = useRouter();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -23,21 +25,29 @@ const Navbar = () => {
     document.body.style.overflow = isMobileMenuOpen ? 'hidden' : 'unset'
   }, [isMobileMenuOpen])
 
+
+
+  const handleHomeClick = (e) => {
+    // Prevent default link behavior if already on Home
+    if (router.pathname === '/') {
+      e.preventDefault();
+      router.reload(); // Forces the page to reload
+    }
+  };
+
   return (
     <nav
-      className={`w-full fixed top-0 transition-all duration-300 z-50 ${
-        scrolled
+      className={`w-full fixed top-0 transition-all duration-300 z-50 ${scrolled
           ? 'bg-[#36a9e1]/60 backdrop-blur-sm shadow-sm py-2'
           : 'bg-[#36a9e1] py-2'
-      }`}
+        }`}
     >
       <div className="container flex flex-wrap items-center justify-between mx-auto px-4">
         <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <Image
             src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/icons/wid_name.png`}
-            className={`transition-all duration-300 ${
-              scrolled ? 'h-12 w-[3.69rem] md:h-16 md:w-[4.31rem]' : 'h-14 w-[4.31rem] md:h-16 w-[4.92rem]'
-            }`}
+            className={`transition-all duration-300 ${scrolled ? 'h-12 w-[3.69rem] md:h-16 md:w-[4.31rem]' : 'h-14 w-[4.31rem] md:h-16 w-[4.92rem]'
+              }`}
             alt="Logo"
             width={200}
             height={80}
@@ -58,13 +68,14 @@ const Navbar = () => {
               <Link
                 href="/"
                 className="text-white 2xl:text-xl hover:text-blue-700 transition-colors"
+                onClick={handleHomeClick}
               >
                 Home
               </Link>
             </li>
             <li>
               <Link
-                href="/#about"
+                href="/about"
                 className="text-white 2xl:text-xl hover:text-blue-700 transition-colors"
               >
                 About
@@ -72,7 +83,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                href="#"
+                href="/contact"
                 className="text-white 2xl:text-xl hover:text-blue-700 transition-colors"
               >
                 Contact
@@ -85,24 +96,27 @@ const Navbar = () => {
               >
                 Register
               </button> */}
-              Register
+              <Link
+                href="/register"
+                className="text-white 2xl:text-xl hover:text-blue-700 transition-colors"
+              >
+                Register
+              </Link>
             </li>
           </ul>
         </div>
 
         {/* Mobile Menu Overlay */}
         <div
-          className={`fixed inset-0 bg-black bg-opacity-50 transition-opacity md:hidden ${
-            isMobileMenuOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'
-          }`}
+          className={`fixed inset-0 bg-black bg-opacity-50 transition-opacity md:hidden ${isMobileMenuOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'
+            }`}
           onClick={() => setIsMobileMenuOpen(false)}
         />
 
         {/* Mobile Menu Panel */}
         <div
-          className={`fixed top-0 right-0 h-full w-64 bg-white transform transition-transform duration-300 ease-in-out md:hidden ${
-            isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'
-          }`}
+          className={`fixed top-0 right-0 h-full w-64 bg-white transform transition-transform duration-300 ease-in-out md:hidden ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'
+            }`}
         >
           {/* Mobile menu content */}
           <div className="p-6">

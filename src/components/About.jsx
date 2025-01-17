@@ -14,7 +14,7 @@ export const About = () => {
   if (!config) return null;
 
   return (
-    <section id="about" className="py-20 px-4 bg-[#f1f1f1] backdrop-blur-sm">
+    <section id="about" className="py-20 px-4 bg-[#f6f6f6] backdrop-blur-sm">
       <div className="container mx-auto max-w-6xl">
         <div className="grid md:grid-cols-2 gap-4 items-center">
           <div className="space-y-6 text-white mb-8">
@@ -34,7 +34,7 @@ export const About = () => {
           <div className="">
             <div className="p-4 w-fit self-end">
               <Image 
-                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/logo.png/images/icons/data-tools.png`} 
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/icons/data-tools.png`} 
                 alt="collaboration" 
                 height={60} 
                 width={400}
