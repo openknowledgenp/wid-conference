@@ -5,8 +5,8 @@ import Link from 'next/link';
 const Footer = () => {
   return (
     <footer className="bg-[#282828] backdrop-blur-sm py-6 mt-auto">
-      <div className="container mx-auto px-4">
-        <div className="text-left text-sm text-white/80">
+      <div className="container mx-auto">
+        <div className=" mx-4 md:mx-16 text-left text-sm text-white/80">
           <p className="mb-2 max-w-3xl">
             Content on this site is licensed under a{' '}
             <Link 
@@ -17,6 +17,7 @@ const Footer = () => {
             >
               Creative Commons Attribution-ShareAlike 4.0 International License.{' '}
             </Link>
+            <br/>
              Source code available under the{' '}
             <Link 
               href="https://opensource.org/licenses/MIT"

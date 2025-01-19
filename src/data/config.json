@@ -2,7 +2,7 @@
     "conference": {
       "title": "Women in Data Conference 2025",
       "tagline": "\"सन्कल्प: Using data to turn promises into progress\"",
-      "date": "2025-02-21T09:00:00Z",
+      "date": "2025-02-23T03:15:00Z",
       "venue": {
         "name": "Kathmandu, Nepal",
         "address": "Durbar Marg, Kathmandu, Nepal",
@@ -27,5 +27,47 @@
           "Inspire the next generation of data professionals"
         ]
       }
-    }
+    },
+    "faqData": [
+      {
+        "question": "Who can participate?",
+        "answer": "Anyone passionate about using data to address societal challenges is welcome! We encourage a diverse range of participants, including students, professionals, and enthusiasts from various fields."
+      },
+      {
+        "question": "How many participants will be selected?",
+        "answer": "Approximately 250 participants will be selected to ensure a meaningful and engaging experience for everyone involved."
+      },
+      {
+        "question": "How can I register?",
+        "answer": "You can register for the conference by filling out the registration form <a href=\"/register\" style=\"color:#229EFD;text-align:center;\">here</a>."
+      },
+      {
+        "question": "What is the registration fee?",
+        "answer": "There is <strong>no registration fee</strong> for attending the Women in Data (WiD) Conference 2025."
+      },
+      {
+        "question": "I've registered! What happens next?",
+        "answer": "Our team will review all registrations after the deadline. If selected, you will receive detailed information about the venue, schedule, and logistics via email."
+      },
+      {
+        "question": "Will there be food and swags?",
+        "answer": "Absolutely! Participants will receive <strong>cool swag items</strong>, and we'll provide <strong>lunch and coffee</strong> throughout the event."
+      },
+      {
+        "question": "What is the schedule of the conference?",
+        "answer": "The full schedule will be published soon. Stay tuned to the <a href=\"/conference\" style=\"color:#229EFD;text-align:center;\">conference page</a> and follow our updates on social media."
+      },
+      {
+        "question": "I live outside Kathmandu Valley. How can I join?",
+        "answer": "You can apply for our travel and accommodation scholarship <a href=\"scholarship\" style=\"color:#229EFD;text-align:center;\">here</a>. We are offering <strong>20 scholarships</strong> for participants from outside the Kathmandu Valley."
+      },
+      {
+        "question": "What is the language of the conference?",
+        "answer": "The sessions will primarily be conducted in Nepali, with English and sign language interpreters available to ensure inclusivity."
+      },
+      {
+        "question": "Where can I contact if I have more questions?",
+        "answer": "Feel free to reach out to us via any of our social media platforms: <a href=\"https://www.facebook.com/openknowledgenp\" style=\"color:#229EFD;text-align:center;\">Facebook</a> | <a href=\"https://www.linkedin.com/company/openknowledgenp/\" style=\"color:#229EFD;text-align:center;\">LinkedIn</a> | <a href=\"https://x.com/openknowledgenp\" style=\"color:#229EFD;text-align:center;\">Twitter</a> | <a href=\"https://www.instagram.com/okfn_np/\" style=\"color:#229EFD;text-align:center;\">Instagram</a>."
+      }
+    ]
   }

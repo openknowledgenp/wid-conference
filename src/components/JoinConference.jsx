@@ -4,9 +4,13 @@ import Image from 'next/image';
 
 export const JoinConference = () => {
   return (
-    <section id="about" className="py-10 px-4 bg-[#fff] backdrop-blur-sm">
-      <div className="container mx-auto">
-        <h2 className="text-center text-black font-bold md:text-2xl mb-10">Why Join WiD Conference?</h2>
+    <section id="about" className="py-16 px-4 bg-[#fff] backdrop-blur-sm container mx-auto">
+      <div className="md:mx-16 text-center">
+        <h2 className="text-center text-black font-bold text-2xl mb-10 w-fit mx-auto inline-block">
+          <span className='relative heading-highlight'>
+          Why Join WiD Conference?
+          </span>
+          </h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
           {[
             {
@@ -30,10 +34,10 @@ export const JoinConference = () => {
               description: "Contribute to a movement advancing data-driven gender equality."
             }
           ].map((item, index) => (
-            <div key={index} className="border border-1 border-[#fcc10f] p-0.5 rounded-xl shadow-lg drop-shadow-sm focus:shadow-xl transition-shadow duration-300">
+            <div key={index} className="border border-1 border-[#36a9e1] p-0.5 rounded-xl shadow-lg drop-shadow-sm focus:shadow-xl transition-shadow duration-300">
               <div className="h-full rounded-xl p-4 text-black text-center">
                 <Image src={item.icon} alt={item.title} height={100} width={120}className="rounded-lg mx-auto" />
-                <h3 className="text-xl mb-2 mt-1 font-semibold">{item.title}</h3>
+                <h3 className="text-xl text-[#36a9e1] mb-2 mt-1 font-semibold">{item.title}</h3>
                 <p className="text-sm">{item.description}</p>
               </div>
             </div>

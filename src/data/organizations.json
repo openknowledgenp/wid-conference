@@ -1,20 +1,21 @@
 {
     "members":[
-        {"url": "","image": "images/logos/committee/wlit.png", "name":""},
-        {"url": "","image": "/images/logos/committee/drn.png", "name":""},
-        {"url": "","image": "/images/logos/committee/naxa.png", "name":""},
-        {"url": "","image": "/images/logos/committee/ran.png", "name":""},
-        {"url": "","image": "/images/logos/committee/smartcheli.png", "name":""},
-        {"url": "","image": "/images/logos/committee/udhesya.png", "name":""},
-        {"url": "","image": "/images/logos/committee/wlit.png", "name":""},
-        {"url": "","image": "/images/logos/committee/wiit.png", "name":""},
-        {"url": "","image": "/images/logos/committee/wiit.png", "name":""},
-        {"url": "","image": "/images/logos/committee/okn.png", "name":""},
-        {"url": "","image": "/images/logos/committee/ankamala.png", "name":""}
+        {"url": "https://www.linkedin.com/company/","image": "/images/logos/committee/ankamala.png", "name":"ankamala"},
+        {"url": "https://digitalrightsnepal.org/","image": "/images/logos/committee/drn.png", "name":"digital rights nepal"},
+        {"url": "https://www.logpoint.com/en/","image": "/images/logos/committee/logpoint.png", "name":"logpoint"},
+        {"url": "https://naxa.com.np/","image": "/images/logos/committee/naxa.png", "name":"naxa"},
+        {"url": "https://oknp.org/","image": "/images/logos/committee/okn.png", "name":"open knowledge nepal"},
+        {"url": "https://www.ran.org.np/","image": "/images/logos/committee/ran.png", "name":"robotics association nepal"},
+        {"url": "https://shequalfoundation.org/","image": "/images/logos/committee/shequal.png", "name":"shequal"},
+        {"url": "https://smartcheli.org.np/","image": "/images/logos/committee/smartcheli.png", "name":"smart cheli"},
+        {"url": "https://www.linkedin.com/company/the-algorithm-pk/?originalSubdomain=np","image": "/images/logos/committee/thealgorithm.png", "name":"the algorithm"},
+        {"url": "https://udeshya.org/","image": "/images/logos/committee/udeshya.png", "name":"udeshya"},
+        {"url": "https://wiit.org.np/","image": "/images/logos/committee/wiit.png", "name":"wiit"},
+        {"url": "https://www.linkedin.com/company/","image": "/images/logos/committee/wlit.png", "name":"wlit"}
     ],
     "funders": [
-        {"url": "","image": "/images/logos/committee/wiit.png", "name":""},
-        {"url": "","image": "/images/logos/committee/wiit.png", "name":""},
-        {"url": "","image": "/images/logos/committee/wiit.png", "name":""}
+        {"url": "","image": "/images/logos/supports/ukid.png", "name":"UK International Development"},
+        {"url": "https://www.d4dnepal.org/","image": "/images/logos/supports/taf.png", "name":"The Asia Foundation"},
+        {"url": "https://www.d4dnepal.org/","image": "/images/logos/supports/d4d.png", "name":"Data for Development"}
     ]
 }
