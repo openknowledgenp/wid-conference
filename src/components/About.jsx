@@ -25,7 +25,7 @@ export const About = () => {
               Join us as we transform promises into progress! This annual event celebrates and empowers women in the data field by fostering collaboration among professionals, policymakers, and data enthusiasts to explore data-driven solutions to societal challenges.
             </p>
             <p className="text-base leading-relaxed max-w-5xl mx-auto text-black mt-0">
-              The Women in Data (WiD) Conference is a prestigious annual event organized by the Women in <a className='text-[#36a9e1] underline' href='https://www.womenindatanepal.org/'>Data Steering Committee</a>. Its mission is to enhance women's capabilities in leveraging data for positive social and economic impact.
+              The Women in Data (WiD) Conference is a prestigious annual event organized by the Women in <a className='text-[#229EFD] underline' href='https://www.womenindatanepal.org/'>Data Steering Committee</a>. Its mission is to enhance women's capabilities in leveraging data for positive social and economic impact.
             </p>
             <p className="text-base leading-relaxed max-w-5xl mx-auto text-black mt-0">
               This year's theme, <span className="font-semibold italic">"सङ्‍कल्प: Using Data to Turn Promises into Progress"</span>, emphasizes the importance of actionable commitments to advance gender equality.

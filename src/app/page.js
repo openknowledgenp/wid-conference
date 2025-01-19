@@ -11,10 +11,10 @@ import { JoinConference } from '@/components/JoinConference'
 
 export const metadata = {
   title: 'Women in Data Conference 2025',
-  description: 'Join us for the Women in Data Conference, a one-day event dedicated to empowering women in data science and analytics.',
+  description: 'Join the Women in Data (WiD) Conference 2025, a premier annual event celebrating women in the data field. This year’s theme, \'सङ्‍कल्प: Using Data to Turn Promises into Progress,\' highlights actionable commitments and data-driven solutions for advancing gender equality. Be part of the change!',
   openGraph: {
     title: 'Women in Data Conference 2025',
-    description: 'Join us for the Women in Data Conference, a one-day event dedicated to empowering women in data science and analytics.',
+    description: 'Join the Women in Data (WiD) Conference 2025, a premier annual event celebrating women in the data field. This year’s theme, \'सङ्‍कल्प: Using Data to Turn Promises into Progress,\' highlights actionable commitments and data-driven solutions for advancing gender equality. Be part of the change!',
     url: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/homepage.png` ,
     images: [
       {
