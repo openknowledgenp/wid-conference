@@ -63,7 +63,7 @@ const ContactPage = () => {
     {
       icon: Mail,
       title: "Email Us",
-      content: "conference@wid2025.com"
+      content: "womenindatanepal@gmail.com"
     }
   ];
 
@@ -84,36 +84,21 @@ const ContactPage = () => {
           {contactInfo.map((item, index) => (
             <Card key={index} className="relative overflow-hidden group">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-50 to-blue-100 opacity-0 group-hover:opacity-100 transition-opacity" />
-              <CardContent className="pt-6 relative">
+              <CardContent className="pt-6 relative ">
                 <div className="flex flex-col items-start">
                   <div className="p-3 bg-blue-50 rounded-full mb-4 group-hover:bg-white transition-colors">
                     <item.icon className="w-6 h-6 text-blue-600" />
                   </div>
                   <h3 className="font-semibold text-gray-700 mb-2">{item.title}</h3>
-                  <p className="text-gray-600">{item.content}</p>
+                  <p className="text-gray-600 mr-2 text-sm">{item.content}</p>
                 </div>
               </CardContent>
             </Card>
           ))}
         </div>
-
-        <div className="mb-12">
-          <p className="text-lg text-gray-700 mb-6">
-            Ready to join us? Register now to secure your spot at the WiD Conference 2025.
-          </p>
-          <Link href="/register">
-          <button
-              href="/register"
-              className="px-8 py-3 bg-[#FBBC0A] hover:bg-[#FBBC0A]/95 rounded-lg font-semibold transform hover:scale-105 transition-transform text-white hover:outline-black focus:outline-none border-none"
-            >
-              Register Now
-            </button>
-          </Link>
-        </div>
-
         <div>
-          <h2 className="text-2xl font-semibold text-gray-800 mb-6">Follow Us</h2>
-          <div className="flex items-center space-x-6 mb-8">
+          <h2 className="text-2xl font-semibold text-gray-800 mb-4">Follow Us</h2>
+          <div className="flex items-center space-x-4 mb-4">
             {socialLinks.map((social, index) => (
               <a
                 key={index}
@@ -122,7 +107,7 @@ const ContactPage = () => {
                 rel="noopener noreferrer"
                 className={`text-gray-600 transition-all transform hover:scale-110 ${social.hoverColor}`}
               >
-                <social.icon className="w-8 h-8" />
+                <social.icon className="w-6 h-6" />
               </a>
             ))}
           </div>

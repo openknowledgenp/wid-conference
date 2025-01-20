@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import configData from '../data/config.json';
 
 export const About = () => {
@@ -25,10 +26,10 @@ export const About = () => {
               Join us as we transform promises into progress! This annual event celebrates and empowers women in the data field by fostering collaboration among professionals, policymakers, and data enthusiasts to explore data-driven solutions to societal challenges.
             </p>
             <p className="text-base leading-relaxed max-w-5xl mx-auto text-black mt-0">
-              The Women in Data (WiD) Conference is a prestigious annual event organized by the Women in <a className='text-[#229EFD] underline' href='https://www.womenindatanepal.org/'>Data Steering Committee</a>. Its mission is to enhance women's capabilities in leveraging data for positive social and economic impact.
+              The Women in Data (WiD) Conference is a prestigious annual event organized by the <a className='text-[#229EFD] underline' href='https://www.womenindatanepal.org/'> Women in Data Steering Committee</a>. Its mission is to enhance women's capabilities in leveraging data for positive social and economic impact.
             </p>
             <p className="text-base leading-relaxed max-w-5xl mx-auto text-black mt-0">
-              This year's theme, <span className="font-semibold italic">"सङ्‍कल्प: Using Data to Turn Promises into Progress"</span>, emphasizes the importance of actionable commitments to advance gender equality.
+              This year's theme, <span className="font-semibold text-[#FBBC0A] italic font-semibold">"सङ्‍कल्प: Using Data to Turn Promises into Progress"</span>, emphasizes the importance of actionable commitments to advance gender equality. <Link href='/about' className='text-base text-[#229EFD] underline'>Learn More...</Link>
             </p>
           </div>
           <div className="pt-8 hidden md:block">

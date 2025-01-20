@@ -38,7 +38,7 @@ export default function Register() {
                     </p>
 
                     <div className="relative w-full" style={{ paddingBottom: '6.25%' }}>
-                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScSyG74rsGLqR-FrGs7R42PFHwnuMa_R7UtiZQW1nP9l5hi1g/viewform?embedded=true" className="w-full" height="4927" frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
+                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScSyG74rsGLqR-FrGs7R42PFHwnuMa_R7UtiZQW1nP9l5hi1g/viewform" className="w-full" height="4927" frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
                     </div>
                 </div>
             </section>

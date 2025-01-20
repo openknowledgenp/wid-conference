@@ -1,7 +1,7 @@
 {
     "conference": {
       "title": "Women in Data Conference 2025",
-      "tagline": "\"सन्कल्प: Using data to turn promises into progress\"",
+      "tagline": "\"सङ्‍कल्प: Using data to turn promises into progress\"",
       "date": "2025-02-23T03:15:00Z",
       "venue": {
         "name": "Kathmandu, Nepal",
@@ -55,11 +55,11 @@
       },
       {
         "question": "What is the schedule of the conference?",
-        "answer": "The full schedule will be published soon. Stay tuned to the <a href=\"/conference\" style=\"color:#229EFD;text-align:center;\">conference page</a> and follow our updates on social media."
+        "answer": "The full schedule will be published soon. Stay tuned to the <a href=\"/schedule\" style=\"color:#229EFD;text-align:center;\">conference page</a> and follow our updates on social media."
       },
       {
         "question": "I live outside Kathmandu Valley. How can I join?",
-        "answer": "You can apply for our travel and accommodation scholarship <a href=\"scholarship\" style=\"color:#229EFD;text-align:center;\">here</a>. We are offering <strong>20 scholarships</strong> for participants from outside the Kathmandu Valley."
+        "answer": "You can apply for our travel and accommodation scholarship <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSdwrSv7BzvbAbVg5RkzVwC4hP4Y5ZPPDtyTCtVikAhRcDc7xA/viewform?usp=sharing\" style=\"color:#229EFD;text-align:center;\">here</a>. We are offering <strong>20 scholarships</strong> for participants from outside the Kathmandu Valley."
       },
       {
         "question": "What is the language of the conference?",
@@ -67,7 +67,7 @@
       },
       {
         "question": "Where can I contact if I have more questions?",
-        "answer": "Feel free to reach out to us via any of our social media platforms: <a href=\"https://www.facebook.com/womenindatanp\" style=\"color:#229EFD;text-align:center;\">Facebook</a> | <a href=\"https://www.linkedin.com/company/womenindatanp\" style=\"color:#229EFD;text-align:center;\">LinkedIn</a> | <a href=\"https://x.com/womenindatanp\" style=\"color:#229EFD;text-align:center;\">Twitter</a> | <a href=\"https://www.instagram.com/womenindata.np/\" style=\"color:#229EFD;text-align:center;\">Instagram</a>."
+        "answer": "Feel free to <a href=\"contact\" style=\"color:#229EFD;text-align:center;\">contact</a> or reach out to us via any of our social media platforms: <a href=\"https://www.facebook.com/womenindatanp\" style=\"color:#229EFD;text-align:center;\">Facebook</a> | <a href=\"https://www.linkedin.com/company/womenindatanp\" style=\"color:#229EFD;text-align:center;\">LinkedIn</a> | <a href=\"https://x.com/womenindatanp\" style=\"color:#229EFD;text-align:center;\">Twitter</a> | <a href=\"https://www.instagram.com/womenindata.np/\" style=\"color:#229EFD;text-align:center;\">Instagram</a>."
       }
     ]
   }

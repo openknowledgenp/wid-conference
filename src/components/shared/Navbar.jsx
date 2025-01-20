@@ -148,7 +148,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    href="/schedule "
+                    href="/schedule"
                     className="block text-gray-900 hover:text-[#FBBC0A] transition-colors py-2"
                   >
                     Schedule

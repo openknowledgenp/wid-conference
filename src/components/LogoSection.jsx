@@ -39,10 +39,10 @@ const LogoSection = () => {
           </div>
           <div className="md:w-4/12 md:pl-8">
             <h2 className="text-lg font-bold mb-4 text-gray-800 mt-8 md:mt-0">Supported by</h2>
-            <div className="rounded-md shadow-sm bg-white shadow-lg border border-[#36a9e1] hover:shadow-lg transition-all cursor-pointer p-8 md:pb-4 md:pt-2">
-              <div className='md:px-2 mmd:r-4'>
-                <Link href='/'>
-                <Image src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/logos/supports/ukid.png`} alt="UK International Development" width={200} height={100} className='w-fit' />
+            <div className="rounded-md shadow-sm bg-white shadow-lg border border-[#36a9e1] hover:shadow-lg transition-all cursor-pointer p-8 md:pb-4 md:pt-2 w-fit">
+              <div className='md:px-2 md:r-4'>
+                <Link href='https://www.gov.uk/government/organisations/foreign-commonwealth-development-office'>
+                <Image src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/logos/supports/ukid.png`} alt="UK International Development" width={280} height={100} />
                 </Link>
                 <Link href='https://asiafoundation.org/'>
                 <Image src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/logos/supports/taf.png`} alt="The Asia Foundaiton" width={260} height={100} className='mx-3' />
@@ -57,9 +57,9 @@ const LogoSection = () => {
         <section className="mx-auto container flex justify-left gap-8">
           <div className="md:w-4/12">
             <h2 className="text-lg font-bold mb-4 text-gray-800">Managed by</h2>
-            <div className="rounded-md shadow-sm bg-white shadow-lg border border-[#36a9e1] hover:shadow-lg transition-all cursor-pointer w-fit p-2">
-              <Link href="https://oknp.org/">
-              <Image src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/logos/committee/okn.png`} alt="open knowledge nepal" width={200} height={200} />
+            <div className="">
+              <Link className='flex items-center justify-center p-2 py-4  rounded-md shadow-sm bg-white w-44 2xl:w-56 border border-[#36a9e1] hover:shadow-lg transition-all cursor-pointer' href="https://oknp.org/">
+              <Image src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/logos/committee/okn.png`} alt="open knowledge nepal" width={176}height={64} className="max-h-16 object-contain" />
               </Link>
             </div>
           </div>
