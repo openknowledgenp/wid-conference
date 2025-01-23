@@ -12,21 +12,11 @@ export const metadata = {
   openGraph: {
     title: 'Contact | Women in Data Conference 2025',
     description: 'Get in touch with the Women in Data (WiD) Conference team. Reach out for inquiries, partnership opportunities, or assistance with your registration for WiD 2025, where data meets action to advance gender equality',
-    url: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/homepage.png` ,
-    images: [
-      {
-        url: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/homepage.png`,
-        width: 1200,
-        height: 630,
-        alt: 'Women in Data Conference Banner',
-      },
-    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Contact | Women in Data Conference',
     description: 'Get in touch with the Women in Data (WiD) Conference team. Reach out for inquiries, partnership opportunities, or assistance with your registration for WiD 2025, where data meets action to advance gender equality',
-    images: [`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/homepage.png`],
   },
 }
 

@@ -8,21 +8,11 @@ export const metadata = {
     openGraph: {
       title: 'Register | Women in Data Conference 2025',
       description: 'Register for the Women in Data (WiD) Conference 2025! Secure your spot at this impactful event where professionals, policymakers, and data enthusiasts come together to transform promises into progress using data-driven solutions.',
-      url: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/homepage.png` ,
-      images: [
-        {
-          url: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/homepage.png`,
-          width: 1200,
-          height: 630,
-          alt: 'Women in Data Conference Banner',
-        },
-      ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Women in Data Conference',
+      title: 'Register | Women in Data Conference',
       description: 'Register for the Women in Data (WiD) Conference 2025! Secure your spot at this impactful event where professionals, policymakers, and data enthusiasts come together to transform promises into progress using data-driven solutions.',
-      images: [`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/homepage.png`],
     },
   }
 

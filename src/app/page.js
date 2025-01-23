@@ -15,21 +15,11 @@ export const metadata = {
   openGraph: {
     title: 'Women in Data Conference 2025',
     description: 'Join the Women in Data (WiD) Conference 2025, a premier annual event celebrating women in the data field. This year’s theme, \'सङ्‍कल्प: Using Data to Turn Promises into Progress,\' highlights actionable commitments and data-driven solutions for advancing gender equality. Be part of the change!',
-    url: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/homepage.png` ,
-    images: [
-      {
-        url: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/homepage.png`,
-        width: 1200,
-        height: 630,
-        alt: 'Women in Data Conference Banner',
-      },
-    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Women in Data Conference',
     description: 'Join us for the Women in Data Conference, a one-day event dedicated to empowering women in data science and analytics.',
-    images: [`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/homepage.png`],
   },
 }
 
