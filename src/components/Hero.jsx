@@ -72,7 +72,7 @@ const Hero = () => {
             </Link>
           </div>
           <p className="text-base text-white italic mt-4">
-            Spaces are limited - register by February 10 to secure your spot!
+            Spaces are limited - register by February 14 to secure your spot!
           </p>
         </div>
       </div>

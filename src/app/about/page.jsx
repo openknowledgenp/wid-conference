@@ -83,15 +83,15 @@ export default function About() {
               <p className="text-base leading-relaxed text-black max-w-5xl ">
                 Whether you’re a student, professional, or data enthusiast, <strong>everyone passionate about using data to address societal challenges is welcome!</strong>
               </p>
-              <h3 className="text-2xl text-black font-semibold mt-8">Register Now</h3>
+              <h3 className="text-2xl text-black font-semibold mt-4">Register Now</h3>
               <p className="text-base leading-relaxed max-w-5xl text-black">
-                Mark your calendars and register by <strong>February 10, 2025</strong>, to secure your spot. Click <a href="/register" className='text-[#229EFD]'>here</a> to register or access the registration form here: <a href="/register" className='text-[#229EFD]'>https://conference.womenindatanepal.org/register/</a>
+                Mark your calendars and register by <strong>February 14, 2025</strong>, to secure your spot. Click <a href="/register" className='text-[#229EFD]'>here</a> to register or access the registration form here: <a href="/register" className='text-[#229EFD]'>https://conference.womenindatanepal.org/register/</a>
               </p>
               <p className="text-base leading-relaxed max-w-5xl text-black">
               Stay tuned for updates on the full schedule and speaker announcements. Follow us on our social media platforms to stay updated: <a href="https://www.facebook.com/womenindatanp" className='text-[#229EFD]'>Facebook</a> | <a className='text-[#229EFD]' href='https://www.linkedin.com/company/womenindatanp/'>LinkedIn</a> | <a className='text-[#229EFD]' href='https://x.com/womenindatanp'>Twitter/X</a> | <a className='text-[#229EFD]' href='https://www.instagram.com/womenindata.np/'>Instagram</a>
               </p>
               <p className="text-base leading-relaxed max-w-5xl text-black">
-              Let’s march forward together - transforming promises into progress and shaping a future where =data empowers everyone.
+              Let’s march forward together - transforming promises into progress and shaping a future where data empowers everyone.
               </p>
               <p className="text-base leading-relaxed max-w-5xl text-black"><strong>Be part of the movement. Be part of the change.</strong></p>
             </>

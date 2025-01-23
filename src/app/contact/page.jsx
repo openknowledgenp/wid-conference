@@ -58,7 +58,7 @@ const ContactPage = () => {
     {
       icon: Calendar,
       title: "Registration Deadline",
-      content: "February 10, 2025"
+      content: "February 14, 2025"
     },
     {
       icon: Mail,
