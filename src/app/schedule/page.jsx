@@ -141,7 +141,7 @@ export default function Schedule() {
                   <div className="flex-1 px-6 py-4">
                     <div className="space-y-2">
                       {/* <h3 className={`text-base font-semibold ${isBreakSession(session.title) ? 'text-[#FCC10F]' : 'text-[#36A9E1]' */}
-                      <h3 className={`text-base font-semibold ${isBreakSession(session.title) ? 'text-black' : 'text-black'
+                      <h3 className={`text-base font-medium ${isBreakSession(session.title) ? 'text-black' : 'text-black'
                         }`}>
                         {session.title}
                       </h3>
