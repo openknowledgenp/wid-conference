@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import Navbar from '../../components/shared/Navbar';
 import Footer from '../../components/Footer';
 import { Clock, Calendar, Hotel } from 'lucide-react';
@@ -43,7 +44,7 @@ export default function Schedule() {
                 <span className='text-base ml-2'>9:00 AM to 5:30 PM</span>
               </div>
               <div className="flex items-center ga text-black pr-2">
-              <Hotel className="w-4 h-4" />
+                <Hotel className="w-4 h-4" />
                 <span className='text-base ml-1'>Radisson Hotel Kathmandu</span>
               </div>
             </div>
@@ -161,6 +162,9 @@ export default function Schedule() {
               ))}
             </div>
           </div>
+            <div className="md:mx-16 mt-6 md:w-3/4">
+              <p className="text-black">As we participate in this conference, we commit to fostering a respectful, inclusive, and welcoming environment for all. Please take a moment to review our <Link href="/coc"className="text-[#229EFD] underline">Code of Conduct</Link> to ensure a safe and positive experience for everyone.</p>
+            </div>
         </div>
       </section>
       <Footer />
