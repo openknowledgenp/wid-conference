@@ -61,8 +61,8 @@ export default function Schedule() {
       <p className="text-sm text-gray-600">
         <span className="font-medium">Organized by:</span> {session.organizer}
       </p>
-      <p className="text-sm text-gray-600">
-        <span className="font-medium">Hall:</span> {session.location}
+      <p className="text-sm text-gray-700 font-semibold">
+        <span className="font-semibold">Hall:</span> {session.location}
       </p>
     </div>
   );
@@ -192,7 +192,8 @@ export default function Schedule() {
         "Panelists:",
         "- Carolyn O'Donnell, Director of Impact, The Asia Foundation",
         "- Nirjana Sharma, Head of Communication and Information, UNESCO",
-        "- Bimala Rai Poudyal, Member, National Assembly of Federal Parliament of Nepal"
+        "- Bimala Rai Poudyal, Member, National Assembly of Federal Parliament of Nepal",
+        "- Roshee Lamichhane, Assistant Professor, Kathmandu University School of Management"
       ]
     },
     {

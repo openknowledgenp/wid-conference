@@ -59,10 +59,10 @@ const Hero = () => {
 
           <div className="flex flex-col md:flex-row justify-center gap-4">
             <Link
-              href="/register"
+              href="/schedule"
               className="px-8 py-3 bg-[#FBBC0A] hover:bg-[#FBBC0A]/95 rounded-lg font-semibold transform hover:scale-105 transition-transform text-white hover:outline-black focus:outline-none border-none"
             >
-              Register Now
+              Schedule
             </Link>
             <Link
               href='/about'
@@ -71,9 +71,9 @@ const Hero = () => {
               Learn More
             </Link>
           </div>
-          <p className="text-base text-white italic mt-4">
+          {/* <p className="text-base text-white italic mt-4">
             Spaces are limited - register by February 14 to secure your spot!
-          </p>
+          </p> */}
         </div>
       </div>
     </section>

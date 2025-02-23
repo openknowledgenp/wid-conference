@@ -81,14 +81,14 @@ const Navbar = () => {
                   About
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   href="/schedule"
                   className="text-white 2xl:text-lg hover:text-[#FBBC0A] transition-colors"
                 >
                   Schedule
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link
                   href="/contact"
@@ -99,9 +99,9 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                href='/register'
+                href='/schedule'
                 className="px-4 py-2 bg-[#FBBC0A] 2xl:text-xl hover:bg-[#FBBC0A]/95 rounded-lg font-neutral transform hover:scale-105 transition-transform focus:outline-none border-none text-white">
-                Register
+                Schedule
                 </Link>
               </li>
             </ul>
