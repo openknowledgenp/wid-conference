@@ -87,7 +87,7 @@ export default function Schedule() {
       time: "10:25 - 10:50 AM",
       title: "Keynote Presentation",
       location: "Nepa Dhuku Hall",
-      items: ["Prof. Dr. Kushum Shakya, Former Dean of Faculty of Humanities and Social Sciences"]
+      items: ["Prof. Dr. Kushum Shakya, Former Dean of Faculty of Humanities and Social Sciences and Former Head of Central Department of Economics, Tribhuvan University"]
     },
     {
       time: "10:50 - 11:00 AM",
