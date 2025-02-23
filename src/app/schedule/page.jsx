@@ -99,7 +99,7 @@ export default function Schedule() {
       title: "Lightning Talk",
       subtitle: "Barriers to Breakthroughs: Women in Nepal's Information and Communication Technology Landscape",
       location: "Nepa Dhuku Hall",
-      items: ["Dibya Dali, Executive Member, Women in Information Technology (WIIT)"]
+      items: ["Dibyswory Dali, Executive Member, Women in Information Technology (WIIT)"]
     },
     {
       time: "11:15 - 12:15 PM",
@@ -203,6 +203,7 @@ export default function Schedule() {
       items: [
         "Federica Di Battista, Evidence and Knowledge Team Leader, FCDO",
         "Preeti Thapa, Deputy Country Representative, The Asia Foundation",
+        "Aarya Upadhyaya Bhandari, Program Assistant, The Asia Foundation’s Data for Development Program",
         "Nikesh Balami, CEO, Open Knowledge Nepal / Women in Data (WiD) Steering Committee"
       ]
     },
