@@ -79,6 +79,7 @@ export default function Schedule() {
       title: "Welcome Remarks",
       location: "Nepa Dhuku Hall",
       items: [
+        "Federica Di Battista, Evidence and Knowledge Team Leader, FCDO",
         "Nhasala Joshi, Women in Data (WiD) Steering Committee",
         "Meghan Nalbo, Country Representative, The Asia Foundation"
       ]
@@ -201,10 +202,8 @@ export default function Schedule() {
       title: "Thank You and Closing Note",
       location: "Nepa Dhuku Hall",
       items: [
-        "Federica Di Battista, Evidence and Knowledge Team Leader, FCDO",
-        "Preeti Thapa, Deputy Country Representative, The Asia Foundation",
-        "Aarya Upadhyaya Bhandari, Program Assistant, The Asia Foundation’s Data for Development Program",
-        "Nikesh Balami, CEO, Open Knowledge Nepal / Women in Data (WiD) Steering Committee"
+        "Pranaya Sthapit, Project Director, The Asia Foundation’s Data for Development Program",
+        "Priya Lamichhane, Project Coordinator, Open Knowledge Nepal & Samiksha Khadka, Co-founder, The Algorithm / Women in Data (WiD) Steering Committee"
       ]
     },
     {
