@@ -121,7 +121,7 @@ export default function Schedule() {
       title: "Lightning Talk",
       subtitle: "Bridging Data and System Silos: Enhancing Data Interoperability in Nepal's Digital Governance Landscape",
       location: "Nepa Dhuku Hall",
-      items: ["Sneha Shah, Senior Program Manager, The Asia Foundation"]
+      items: ["Sneha Shah, Senior Program Officer, The Asia Foundation"]
     },
     {
       time: "12:30 - 1:20 PM",
